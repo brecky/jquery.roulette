@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 (function($) {
-	Class('cn.cuizuoli.Roulette', {
+	Class('lineplay.event.Roulette', {
 		init: function(options) {
 			var _this = this;
 			_this._options = $.extend({

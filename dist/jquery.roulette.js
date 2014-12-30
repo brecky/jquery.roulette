@@ -2,7 +2,7 @@
 * https://github.com/cuizuoli/jquery.roulette
 * Copyright (c) 2014 cuizuoli; Licensed MIT */
 (function($) {
-	Class('cn.cuizuoli.Roulette', {
+	Class('lineplay.event.Roulette', {
 		init: function(options) {
 			var _this = this;
 			_this._options = $.extend({
