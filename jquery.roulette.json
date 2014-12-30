@@ -1,0 +1,29 @@
+{
+  "name": "jquery.roulette",
+  "title": "jQuery Roulette",
+  "description": "jQuery Roulette plugin.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cuizuoli/jquery.roulette",
+  "author": {
+    "name": "cuizuoli",
+    "email": "cuizuoli@gmail.com",
+    "url": "http://cuizuoli.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuizuoli/jquery.roulette.git"
+  },
+  "bugs": "https://github.com/cuizuoli/jquery.roulette/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cuizuoli/jquery.roulette/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "class.support": "*",
+    "jquery": "*",
+    "jquery.rotate": "*"
+  },
+  "keywords": []
+}
