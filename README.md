@@ -16,12 +16,13 @@ In your web page:
 <script src="libs/jquery.rotate/jQueryRotateCompressed.js"></script>
 <script src="dist/jquery.roulette.min.js"></script>
 <script>
-var roulette = new cn.cuizuoli.Roulette({
+var roulette = new lineplay.event.Roulette({
   id: '#ct',
   afterSpin: function() {
     // TODO after spin.
   }
 });
+roulette.spin();
 </script>
 ```
 
