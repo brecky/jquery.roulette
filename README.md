@@ -11,11 +11,16 @@ Download the [production version][min] or the [development version][max].
 In your web page:
 
 ```html
-<script src="jquery.js"></script>
+<script src="libs/class.support/class.support.min.js"></script>
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/jquery.rotate/jQueryRotateCompressed.js"></script>
 <script src="dist/jquery.roulette.min.js"></script>
 <script>
-jQuery(function($) {
-  $.awesome(); // "awesome"
+var roulette = new cn.cuizuoli.Roulette({
+  id: '#ct',
+  afterSpin: function() {
+    // TODO after spin.
+  }
 });
 </script>
 ```
